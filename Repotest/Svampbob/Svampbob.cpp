@@ -16,6 +16,7 @@ int _tmain(int argc, _TCHAR* argv[])
 		std::cout << "What's your name?" << std::endl;
 
 		std::string name;
+        std::string address;
 		std::getline(std::cin, name);
 
 		if (name.compare("Spongebob") == 0 || name.compare("Patrik") == 0 || name.compare("Squidward") == 0 || name.compare("Crab") == 0){
@@ -25,6 +26,12 @@ int _tmain(int argc, _TCHAR* argv[])
 		else {
 			std::cout << "You are not a citizen of Bikinibotten!" << std::endl;
 		}
+        if (!askForName)
+        {
+            std::cout << "Your address sir:" << std::endl;
+            std::getline(std::cin, address);
+            std::cout << "Thanks" << std::endl;
+        }
 	}
 	
 
