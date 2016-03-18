@@ -18,7 +18,7 @@ int _tmain(int argc, _TCHAR* argv[])
 		std::string name;
 		std::getline(std::cin, name);
 
-		if (name.compare("Spongebob") == 0 || name.compare("Patrik") == 0 || name.compare("Squidward") == 0){
+		if (name.compare("Spongebob") == 0 || name.compare("Patrik") == 0 || name.compare("Squidward") == 0 || name.compare("Crab") == 0){
 			std::cout << "Welcome " << name << "!" << std::endl;
 			askForName = false;
 		}
