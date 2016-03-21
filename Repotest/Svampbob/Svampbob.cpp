@@ -17,15 +17,12 @@ void crustyCrab(){
 	std::cin >> order;
 
 	std::string nameOfOrder;
-	if (order == 1)
-		nameOfOrder = "Crab burgers";
-	else if (order == 2)
-		nameOfOrder = "Crab fries";
-	else if (order == 3)
-		nameOfOrder = "Crab cola";
-	else
-		nameOfOrder = "";
-		
+	switch (order) {
+	case 1: nameOfOrder = "Crab burgers"; break;
+	case 2: nameOfOrder = "Crab fries"; break;
+	case 3: nameOfOrder = "Crab cola"; break;
+	default: nameOfOrder = ""; break;
+	}
 	if (nameOfOrder.length() > 0)
 		std::cout << "One " << nameOfOrder << " coming up!" << std::endl;
 	else
