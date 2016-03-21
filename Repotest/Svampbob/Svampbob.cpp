@@ -1,5 +1,14 @@
-// Svampbob.cpp : Defines the entry point for the console application.
-//
+/*
+
+SvampBob application
+
+By Stefan & Oskar AB
+
+Version 1.0
+
+Tested and verified 2016-03-21 by Squidward and Mr. Crab
+
+*/
 
 #include "stdafx.h"
 #include <iostream>
